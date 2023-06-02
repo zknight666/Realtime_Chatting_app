@@ -21,7 +21,6 @@ const io = new Server(server,{
       methods: ["GET","POST"]
 });
 ```
-
   - client/Chat.js 의 ENDPOINT 값 변경
 ```bash
 const ENDPOINT = 'localhost:5000';
