@@ -8,7 +8,7 @@
 
 # **How to run**
 
-- 웹에서 실행시 
+- 웹에서 실행시 (주소창 복사)
   - 64794b6c1dd9f03d85d26465--melodic-kashata-4668a1.netlify.app
 
 - 로컬에서 실행시
@@ -36,9 +36,8 @@ npm install
 ```bash
 npm start
 ```
-```bash
-cd ..
-```
+
+New Terminal (ctrl+shift+`)
 ```bash
 cd client
 ```
