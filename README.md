@@ -26,7 +26,7 @@ const io = new Server(server,{
 ```bash
 const ENDPOINT = 'localhost:5000';
 ```
-  - node_modules 설치 및 서버 가동
+  - server 폴더의 node_modules 설치 및 가동
 ```bash
 cd server
 ```
@@ -36,8 +36,8 @@ npm install
 ```bash
 npm start
 ```
-
-New Terminal (ctrl+shift+`)
+  - client 폴더의 node_modules 설치 및 가동
+    - New Terminal (VScode 기준 ctrl+shift+`)
 ```bash
 cd client
 ```
