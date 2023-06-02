@@ -3,8 +3,8 @@
 - 2023/06/02 버전, 홈페이지 2023/06/15까지 운영
 - 참고 자료
   - https://www.youtube.com/watch?v=ZwFA3YMfkoc
-  - https://www.heroku.com/
-  - https://www.netlify.com/
+  - https://www.heroku.com/ (서버 배포용, 무료아님)
+  - https://www.netlify.com/ (client 배포용)
 
 # **How to run**
 
