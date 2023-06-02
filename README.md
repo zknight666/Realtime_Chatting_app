@@ -9,8 +9,7 @@
 # **How to run**
 
 - 웹에서 실행시 
-  - 주소창에 링크 붙이기 React App (64794b6c1dd9f03d85d26465--melodic-kashata-4668a1.netlify.app)
-  - 
+  - 64794b6c1dd9f03d85d26465--melodic-kashata-4668a1.netlify.app
 
 - 로컬에서 실행시
   - server/index.js 의 socket.io setup 부분의 origin 값 변경
