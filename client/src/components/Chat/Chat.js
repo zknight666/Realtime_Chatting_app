@@ -42,6 +42,7 @@ const Chat = () => {
             
         });
 
+        // 컴포넌트가 언마운트될 때 실행됨, 의존성 배열에 있는 값이 변경될 때 실행됨.
         return () => {
             // disconnect 이벤트를 실행해라
             socket.emit('disconnect');
@@ -52,15 +53,15 @@ const Chat = () => {
  
 
     useEffect(() => {
-        // socket.on = 서버에서 보낸 message 이벤트를 listen함 -> 이벤트 발생 시 다음 함수 실행
+        // socket.on = 서버에서 보낸 message 이벤트를 listen함 -> 이벤트 발생 시 다음 함수 실행, message event는 sendmessage 안에 있음
         socket.on('message', (message) => {
             setMessages([...messages,message]); // messages 배열을 만듬. message를 추가한 새 배열을 만듬. message 이벤트 발생할 때마다 실행.
         })
     },[messages]);
 
-    const sendMessage = (event) => {
+    const sendMessage = (event) => { // event = enter를 눌렀을 때, send를 눌렀을 때 (input.js 에 설정되어 있음)
        
-        event.preventDefault();
+        event.preventDefault(); // form 안쓰면 제거해도 됨.
 
         if(message) {
             socket.emit('sendMessage',message,() => setMessage(''));

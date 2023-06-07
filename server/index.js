@@ -25,7 +25,7 @@ const io = new Server(server,{
     }
 });
 
-// Socket.io event handlers
+// Socket.io event handlers (클라이언트가 서버와 연결됬을 때 )
 io.on('connection', (socket) => {
     console.log('a user connected');
 
@@ -33,7 +33,7 @@ io.on('connection', (socket) => {
     socket.on('join',({name,room}, callback) => { // callback = 이벤트 처리 완료시 클라이언트에게 알림 용도로 실행
         console.log(name,room);
         
-        const {error,user} = addUser({id:socket.id, name, room}); //name=name, room=room이지만 생략됨.
+        const {error,user} = addUser({id:socket.id, name, room}); //name=name, room=room이지만 생략됨., error = 아이디 중복체크
         
         if(error) return callback(error);
 
@@ -50,7 +50,7 @@ io.on('connection', (socket) => {
         const user = getUser(socket.id);
         
         io.to(user.room).emit('message', {user:user.name,text:message}); // 방에 있는 모든 사용자에게 메세지 보냄
-        io.to(user.room).emit('roomData',{room:user.room, users:getUsersInRoom(user.room)})
+        io.to(user.room).emit('roomData',{room:user.room, users:getUsersInRoom(user.room)}) // 특정 사용자가 있는 특정 방에 roomData라는 이벤트를 보냄. 
 
         callback();
     })

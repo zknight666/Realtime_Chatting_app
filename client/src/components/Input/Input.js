@@ -14,6 +14,7 @@ const Input = ({message, setMessage, sendMessage}) => {
                 />
                                                                 {/* sendMessage(event) 함수 호출 */}
                 <button className='sendButton' onClick={(event) => sendMessage(event)}>Send</button> 
+                {/* <button onClick={sendMessage}>Send</button> */}
             </form>
         </div>
     );
