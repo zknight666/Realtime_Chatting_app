@@ -7,6 +7,12 @@
   - https://www.heroku.com/ (서버 배포용, 무료아님)
   - https://www.netlify.com/ (client 배포용)
 
+<div align="center" >
+<img src="https://veiled-jay-0c2.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2e768a0a-5b2a-451c-978e-9c8354653ffc%2F%25EC%25A3%25BC%25EC%2584%259D_2023-06-15_225922.png?id=7424d5f2-b6be-4295-a0a4-aa0f1abeb8d3&table=block&spaceId=5989bf22-29e0-4423-b8aa-9d2d5f3b5c6b&width=2000&userId=&cache=v2" width="400" height="400"/>
+&emsp;
+<img src="https://veiled-jay-0c2.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1dc33b21-7c63-4d72-a99a-bd88ac441f4e%2F%25EC%25A3%25BC%25EC%2584%259D_2023-06-15_225905.png?id=1658ef0b-19e2-4378-84cd-f2ab6d10cd3f&table=block&spaceId=5989bf22-29e0-4423-b8aa-9d2d5f3b5c6b&width=2000&userId=&cache=v2" width="400" />
+</div>
+
 # **How to run**
 
 - 웹에서 실행시 (주소창 복사)
