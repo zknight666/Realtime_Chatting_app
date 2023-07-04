@@ -1,5 +1,12 @@
 # Realtime_Chatting_app
-https://img.shields.io/badge/github-GIVEME--STAR-red
+<img src="https://img.shields.io/github/languages/count/zknight666/Realtime_Chatting_app"/>
+<img src="https://img.shields.io/github/languages/top/zknight666/Realtime_Chatting_app"/>
+<img src="https://img.shields.io/github/languages/code-size/zknight666/Realtime_Chatting_app"/>
+<img src="https://img.shields.io/github/repo-size/zknight666/Realtime_Chatting_app"/>
+<img src="https://img.shields.io/github/commit-activity/w/zknight666/Realtime_Chatting_app"/>
+<img src="https://img.shields.io/github/last-commit/zknight666/Realtime_Chatting_app"/
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzknight666%2FRealtime_Chatting_app&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+
 - 2023/06/02 ver
 - 홈페이지 2023/06/15까지 운영
 - 참고 자료
